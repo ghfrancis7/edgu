@@ -19,6 +19,8 @@ mysql_query("INSERT INTO Usuario (UsuNombre,UsuApellido,UsuDNI,UsuFechaNacimient
 
 	echo "Datos insertados correctamente";
 
+}else{
+	echo "no se ingreso una chota";
 }
 
 
