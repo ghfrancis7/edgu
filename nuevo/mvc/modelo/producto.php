@@ -25,7 +25,6 @@ include_once("conexion.php");
 		}
 
 		public function crear(){
-			$db= new Conexion();
 
 			$sql= "INSERT INTO muebles (Nombre,Precio,Cantidad)
 					VALUES ('$this->Nombre', '$this->Precio', '$this->Cantidad')";
