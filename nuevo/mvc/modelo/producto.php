@@ -13,7 +13,7 @@ include_once("conexion.php");
 
 		public function __construct(){
 
-			$this-> con = new Conexion();
+			$this->con = new Conexion();
 
 		}
 		public function set($atributo,$contenido){
