@@ -12,7 +12,7 @@
 			$this->host="localhost";
 			$this->user="root";
 			$this->pass="";
-			$this->db="Muebleria";
+			$this->db="dbtesis";
 
 			$con =mysql_connect($this->host, $this->user,$this->pass,$this->db);
 			if($con){
